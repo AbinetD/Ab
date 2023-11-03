@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/17973908.jpg");
+    background-image: url("./assets/z\ Background.jpg");
     background-color: #cccccc;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -69,7 +69,8 @@ article {
 .homepage-image-wrapper {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(3deg);
+    transform: rotate(2deg);
+    margin-left:10rem;
 }
 
 .styling_profile_img {
@@ -99,6 +100,15 @@ article {
 
 .card-item {
     cursor: pointer;
+}
+.card-size{
+
+    cursor: pointer;
+    width: 16rem;
+}
+.card-size:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
 }
 
 .card-item:hover {
@@ -229,6 +239,8 @@ article {
     border-radius:10px;
     border: 1px solid;
     height: 100%;
+    border-color: #70bae9;
+   
 }
 
 .text_area {
@@ -244,6 +256,10 @@ article {
 }
 .Homepara {
     margin-top: 3rem;
+}
+.firstpage{
+    margin: 0px;
+    height: 100%;
 }
 .navposit {
     padding-left: 16px;
@@ -302,4 +318,10 @@ article {
 
     /* transition: 0.5s; */
     transform: scale(1.2);
+}
+.aboutdiv {
+margin: 10rem;
+}
+.homebtn{
+    margin: 3rem;
 }
