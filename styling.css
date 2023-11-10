@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/z\ Background.jpg");
+    background-image: url("./assets/bg\ ice.webp");
     background-color: #cccccc;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -70,7 +70,7 @@ article {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(2deg);
-    margin-left:10rem;
+    /* margin-left:10rem; */
 }
 
 .styling_profile_img {
@@ -105,6 +105,11 @@ article {
 
     cursor: pointer;
     width: 16rem;
+}
+.aboutmepara{
+    text-align: center;
+     font-size: large; 
+     font-family: cursive;
 }
 .card-size:hover{
     transition: 0.5s;
@@ -310,6 +315,11 @@ article {
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width:768px) {
+    .wrappingicon {
+        flex-wrap: wrap;
+    }
+}
 .fsize {
     font-size: 3rem;
     color: #f5fbff;
@@ -324,4 +334,12 @@ margin: 10rem;
 }
 .homebtn{
     margin: 3rem;
+}
+@media screen and (min-width:768px) {
+    .aboutme{
+        padding-bottom: 0%;
+        padding-top: 10rem;
+        padding-left: 35px;
+        padding-right: 35px;
+    }  
 }
