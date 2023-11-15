@@ -135,7 +135,8 @@ article {
     border-radius: 6px;
     gap: 10px;
     color: #FFFFFF;
-    background-color: #7cd1e8;
+    border-color: #d6d6d6;
+    background-color: #a88b35;
 
 }
 
@@ -149,7 +150,7 @@ article {
 .accordion-title {
 
     padding: 8px 0 8px 50px;
-    background:  #70bae9;
+    background:  #a88b35;
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
@@ -170,7 +171,7 @@ article {
 
 .accordion-button:not(.collapsed) {
     color: #fff;
-    background: #70bae9;
+    background: #a88b35;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
 }
 
@@ -183,7 +184,7 @@ article {
 }
 
 .contact_me {
-    background-color: var(--primary-b-400, lightskyblue);
+    background-color: var(--primary-b-400, #a88b35);
 
     flex-shrink: 0;
 }
@@ -210,7 +211,7 @@ article {
 
 .footer {
     height: 100%;
-    background-color: #75b4d9;
+    background-color: #664d03;
 }
 
 .footernavs {
@@ -244,7 +245,7 @@ article {
     border-radius:10px;
     border: 1px solid;
     height: 100%;
-    border-color: #70bae9;
+    border-color: #ba9836;
    
 }
 
@@ -270,7 +271,7 @@ article {
     padding-left: 16px;
     padding-right: 16px;
     top: 0;
-    background-color:  #70bae9;
+    background-color:  #664d03;
     z-index: 10;
     width: 100%;
     border-bottom: 1px solid #d6d6d6;
@@ -289,7 +290,7 @@ article {
 }
 .hovereffect a:hover {
     text-decoration: underline;
-    color: #272e56;
+    color: #ba9836;
 
 }
 
@@ -343,3 +344,6 @@ margin: 10rem;
         padding-right: 35px;
     }  
 }
+#navbarNavDropdown{
+    padding-right: 16px;
+} 
